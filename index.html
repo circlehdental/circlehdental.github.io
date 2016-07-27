@@ -16,7 +16,7 @@ layout: default
     <div class="container-fluid" class="editable">
         
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form" class="editable">
-            <h3 class="editable"><svg class="icon icon-envelope-o" class="editable"><use xlink:href="#icon-envelope-o" class="editable"></use></svg>Make an Appointment</h3>
+            <h3 class="editable"><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post" class="editable">
                 <div class="form-field" class="editable">
                     <input name="name" type="text" placeholder="Name" required class="editable">
@@ -41,7 +41,7 @@ layout: default
 <!-- Start 3 columns -->
 <div class="three-shade-col" class="editable">
     <div class="col-sm-4" class="editable">
-        <svg class="icon icon-envelope-o" class="editable"><use xlink:href="#icon-envelope-o" class="editable"></use></svg>
+        <svg class="icon icon-envelope-o" ><use xlink:href="#icon-envelope-o"></use></svg>
         <h3 class="editable">Contact Us</h3>
         <ul class="editable">
             {% if site.contact.phone %}<li class="editable"><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
@@ -50,7 +50,7 @@ layout: default
         </ul>
     </div>
     <div class="col-sm-4" class="editable">
-        <svg class="icon icon-clock-o" class="editable"><use xlink:href="#icon-clock-o"></use></svg>
+        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
         <h3 class="editable">Opening Hours</h3>
         <table class="editable">
             <tbody class="editable">
@@ -70,9 +70,9 @@ layout: default
         </table>
     </div>
     <div class="col-sm-4" class="editable">
-        <svg class="icon icon-map-marker" class="editable"><use xlink:href="#icon-map-marker" class="editable"></use></svg>
+        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
         <h3 class="editable">Location</h3>
-            <p>
+            <p class="editable">
                 {{ site.contact.address }}
             </p>
     </div>
@@ -80,7 +80,7 @@ layout: default
 <!-- End 3 columns -->
 
 <!-- Start About -->
-<div id="about" class="about">
+<div id="about" class="about" >
     <div class="container-fluid">
         <h2 class="section-title">About Us</h2>
 
